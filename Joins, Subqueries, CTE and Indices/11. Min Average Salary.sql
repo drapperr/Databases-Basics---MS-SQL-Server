@@ -1,0 +1,2 @@
+SELECT MIN(AVGSalay) FROM (SELECT AVG(Salary) AS AVGSalay FROM Employees
+	GROUP BY DepartmentID) AS S
